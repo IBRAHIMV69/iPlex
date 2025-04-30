@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>iBTUBE</title>
+  <title>iPlex</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
   <style>
     :root {
@@ -28,7 +28,7 @@
       left: 0;
       right: 0;
       padding: 8px 20px;
-      border-radius: 30px;
+      border-radius: 0px;
       border: 1px solid #363636;
       background-color: rgba(30, 30, 30, 0.95);
       z-index: 1000;
@@ -101,7 +101,7 @@
       align-items: center;
       padding: 0px 15px;
       border-radius: 50px;
-      border: 1px solid #000;
+      border: 1px solid #555;
       background-color: #ffcc00;
     }
 
@@ -163,7 +163,7 @@
       font-size: 1.2rem;
       color: var(--text-color);
       display: flex;
-      gap: 10px;
+      gap: 15px;
     }
 
     .view-all-btn {
@@ -184,7 +184,7 @@
     .card-row {
       display: flex;
       overflow-x: auto;      
-      gap: 15px;
+      gap: 10px;
       padding: 0px 20px;
       scrollbar-width: thin;
       scrollbar-color: #363636 transparent;
@@ -196,7 +196,7 @@
 
     .card-row.grid-view {
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+      grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
       overflow-x: hidden;
     }
 
@@ -222,7 +222,7 @@
 
     .movie-card img {
       width: 100%;
-      height: 180px;
+      height: 200px;
       object-fit: cover;
       border-bottom: 2px solid #363636;
     }
@@ -387,11 +387,12 @@
     /* Carousel Styles */
     .carousel-container {
       width: 100%;  
-      max-width: 600px;  
+      max-width: 700px;  
       height: 209px;  
       overflow: hidden;
       position: relative;
-      border-radius: 10px;
+      border-radius: 8px;
+      border: 1px solid #363636;
       touch-action: pan-y;
     }
 
@@ -554,7 +555,7 @@
   <header class="header">
     <div class="logo-container">
             <!-- Replace with your image URL -->
-            <img src="https://tinylink.info/Y3Vp" alt="Movie Gram Logo" class="logo" /><span>iPlex</span>
+            <img src="https://bit.ly/3ENxGyn" alt="Movie Gram Logo" class="logo" /><span>iPlex</span>
         </div>
     <div class="header-icons" role="navigation">
       <div class="search" role="search">
@@ -643,13 +644,6 @@
   const moviesData = {
     featured: [
       {
-        title: "ALAQA",
-        year: 2010,
-        img: "https://short-link.me/QSiT",
-        provider: "",
-        link: "https://myportal-nimc-gov-ng.netlify.app/"
-      },
-      {
         title: "GIDAN SARAUTA",
         year: 2014,
         img: "https://short-link.me/TsCr",
@@ -657,39 +651,46 @@
         link: "https://myportal-nimc-gov-ng.netlify.app/"
       },
       {
-        title: "The Dark Knight",
+        title: "RAMIN QRYA",
         year: 2008,
-        img: "https://m.media-amazon.com/images/I/91KkWf50SoL._SL1500_.jpg",
+        img: "https://bit.ly/3GwPP41",
         provider: "",
         link: "#"
       },
       {
-        title: "Pulp Fiction",
+        title: "ALAQA",
+        year: 2010,
+        img: "https://short-link.me/QSiT",
+        provider: "",
+        link: "https://myportal-nimc-gov-ng.netlify.app/"
+      },
+      {
+        title: "BABY",
         year: 1994,
-        img: "https://m.media-amazon.com/images/I/71c05lTE03L._SL1500_.jpg",
+        img: "https://bit.ly/4388onP",
         provider: "",
         link: "#"
       }
     ],
     popular: [
       {
-        title: "The Shawshank",
-        year: 1994,
-        img: "https://short-link.me/TsCr",
+        title: "GIDAN SARAUTA",
+        year: 2014,
+        img: "https://bit.ly/3RHwpvz",
         provider: "",
         link: "#"
       },
       {
-        title: "The Godfather",
+        title: "JAMILUN JIDDA",
         year: 1972,
-        img: "https://m.media-amazon.com/images/I/91KkWf50SoL._SL1500_.jpg",
+        img: "https://bit.ly/3GLvlo1",
         provider: "",
         link: "#"
       },
       {
-        title: "Forrest Gump",
+        title: "RANA DUBU",
         year: 1994,
-        img: "https://m.media-amazon.com/images/I/61FQCSP7ZVL._SL1000_.jpg",
+        img: "https://bit.ly/44OiH1D",
         provider: "",
         link: "#"
       },
@@ -914,25 +915,25 @@
   // Carousel Initialization
   const videos = [
     { 
-        img: "https://vhx.imgix.net/arewa24/assets/deb52668-4e72-4c8f-bb16-4d28a25b4cb8.jpg?auto=format%2Ccompress&fit=crop&h=360&q=70&w=640", 
-        title: "Reacher Season 3", 
+        img: "https://bit.ly/3GL4Yi4", 
+        title: "GIDAN SARAUTA", 
         buttonTitle: "Free Download", 
         link: "https://short-link.me/QSiT"
     },
     { 
-        img: "https://vhx.imgix.net/arewa24/assets/29762585-db42-4abd-83ac-dd4d8a6c2314.jpg?auto=format%2Ccompress&fit=crop&h=360&q=70&w=640", 
-        title: "Fast & Furious 10", 
+        img: "https://bit.ly/4d2G5uC", 
+        title: "RAMIN QRYA", 
         buttonTitle: "Watch Now", 
         link: "https://example.com/fast10"
     },
     { 
-        img: "https://vhx.imgix.net/arewa24/assets/29762585-db42-4abd-83ac-dd4d8a6c2314.jpg?auto=format%2Ccompress&fit=crop&h=360&q=70&w=640", 
+        img: "https://bit.ly/3RHwpvz", 
         title: "Avatar 2", 
         buttonTitle: "Stream Now", 
         link: "https://example.com/avatar2"
     },
     { 
-        img: "https://vhx.imgix.net/arewa24/assets/29762585-db42-4abd-83ac-dd4d8a6c2314.jpg?auto=format%2Ccompress&fit=crop&h=360&q=70&w=640", 
+        img: "https://bit.ly/3RHwpvz", 
         title: "Mission Impossible 7", 
         buttonTitle: "Download", 
         link: "https://example.com/mi7"
